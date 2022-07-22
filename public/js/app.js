@@ -67,7 +67,7 @@ function deleteNote(noteId){
 }
 
 function updateNote(noteId, title, desc){
-    isUpdate = true;
+    isUpdate = true; // ---
     updateId = noteId;
     addBox.click();
     titleTag.value = title;
